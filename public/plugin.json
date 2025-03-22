@@ -1,0 +1,23 @@
+{
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:5173"
+  },
+  "features": [
+    {
+      "code": "bitwarden",
+      "explain": "Bitwarden密码管理器，基于@bitwarden/cli进行密码搜索和管理",
+      "cmds": [
+        "bw",
+        "密码",
+        "bitwarden",
+        {
+          "type": "text",
+          "label": "搜索密码"
+        }
+      ]
+    }
+  ] 
+}
